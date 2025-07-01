@@ -77,7 +77,7 @@ Customize ZRAM settings based on your Raspberry Pi’s RAM and workload.
 
 3. Apply changes:
    ```
-   sudo systemctl restart zramswap
+   sudo reboot
    ```
 
 ### Step 5: Disable Traditional Swap (Optional)
