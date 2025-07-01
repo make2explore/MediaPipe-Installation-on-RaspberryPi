@@ -19,3 +19,13 @@ Open the terminal and ensure your Pi is up to date:
 ```
 sudo apt update && sudo apt upgrade -y
 ```
+
+#### Step 2: Increase Swap Memory  
+When it comes to optimizing memory on your Raspberry Pi, especially for demanding tasks like running MediaPipe and OpenCV for vision applications, ZRAM is the hands-down winner. It effectively transforms the crippling I/O bottleneck of traditional SD card swap into a manageable CPU overhead, resulting in a significantly more responsive, stable, and performant system.  
+  
+By following the simple steps in our [Guide](), you can easily implement ZRAM and give your Raspberry Pi the memory boost it needs to tackle complex projects without hitting frustrating performance walls. Say goodbye to sluggishness and frequent crashes, and embrace a smoother, more efficient Raspberry Pi experience!  
+[How to Increase Swap Memory on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/SWAP-memory.md)  
+  
+#### Step 3: Install OpenCV  
+You should have OpenCV installed on your Raspberry Pi. If not, you can follow our [guide](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/Install-openCV.md) to install it  
+[How to Install OpenCV on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/Install-openCV.md)  
