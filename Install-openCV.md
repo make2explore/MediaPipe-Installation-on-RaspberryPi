@@ -8,3 +8,5 @@ OpenCV **(Open Source Computer Vision Library)** is a powerful tool for computer
 - Internet access for package downloads.
 - Terminal access (via SSH, local terminal, or keyboard/monitor).
 - Backup your data before modifying system settings.  
+  
+### Step-by-Step Installation Guide  🚀  
