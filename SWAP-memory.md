@@ -14,13 +14,15 @@ Raspberry Pi devices, especially those with limited RAM, can run out of memory w
 
 ZRAM is a Linux kernel module that creates a compressed swap space in RAM using algorithms like LZ4 or ZSTD. It’s ideal for Raspberry Pi due to its speed (RAM-based I/O vs. slow SD card I/O) and reduced wear on storage devices. Below is a step-by-step guide to set up ZRAM using the `foundObjects/zram-swap` script, which simplifies configuration for all Raspberry Pi models.
 
-### Prerequisites
+### Prerequisites 🧰
 - Raspberry Pi running Raspberry Pi OS (32-bit or 64-bit, preferably the latest version).
 - SD card or storage device with sufficient free space (~10–20% of total capacity recommended).
 - Internet access for package downloads.
 - Terminal access (via SSH, local terminal, or keyboard/monitor).
 - Backup your data before modifying system settings.
-
+  
+### Step-by-Step Installation Guide  🚀
+  
 ### Step 1: Update the System
 Ensure your Raspberry Pi OS is up to date to avoid compatibility issues.
 
