@@ -1,4 +1,4 @@
-# How to Increase Swap Memory on Raspberry Pi
+## How to Increase Swap Memory on Raspberry Pi
 
 Swap memory serves as virtual memory when a Raspberry Pi's physical RAM is insufficient, helping to prevent system crashes during memory-intensive tasks. This guide explains how to increase swap memory on any Raspberry Pi running Raspberry Pi OS, with **ZRAM** as the preferred method due to its performance and storage-friendly benefits. We’ll also cover the traditional swap file method for comparison, suitable for scenarios where ZRAM may not be ideal.
 
