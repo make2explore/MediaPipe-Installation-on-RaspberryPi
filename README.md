@@ -12,5 +12,5 @@ Before you begin, ensure you have:
 - At least 10GB of free storage (preferably on a microSD card or external drive). MediaPipe and its dependencies can take up a fair amount of space, so ensure your SD card has enough free storage.  
 - A USB webcam or Raspberry Pi Camera Module (optional, for testing MediaPipe applications).  
   
-### Step-by-Step Installation Guide  
+### Step-by-Step Installation Guide 🚀  
   
