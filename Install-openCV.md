@@ -10,3 +10,14 @@ OpenCV **(Open Source Computer Vision Library)** is a powerful tool for computer
 - Backup your data before modifying system settings.  
   
 ### Step-by-Step Installation Guide  🚀  
+  
+### Step 1: Update Your Raspberry Pi
+Ensure your Raspberry Pi OS is up to date to avoid compatibility issues.
+
+1. Open a terminal.
+2. Run:
+   ```
+   sudo apt update
+   sudo apt upgrade
+   sudo reboot
+   ```
