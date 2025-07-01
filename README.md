@@ -15,4 +15,7 @@ Before you begin, ensure you have:
 ### Step-by-Step Installation Guide 🚀  
   
 #### Step 1: Update Your System  
-Open the terminal and ensure your Pi is up to date:
+Open the terminal and ensure your Pi is up to date:  
+```
+sudo apt update && sudo apt upgrade -y
+```
