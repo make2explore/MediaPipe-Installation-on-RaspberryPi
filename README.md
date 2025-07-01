@@ -1,1 +1,1 @@
-## Install OpenCV on a Raspberry Pi
+## How to Install MediaPipe framework on a Raspberry Pi
