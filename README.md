@@ -32,7 +32,7 @@ You should have OpenCV installed on your Raspberry Pi. If not, you can follow ou
 [How to Install OpenCV on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/Install-openCV.md)  
   
 ### Step 4: Preparing Virtual Environment (Recommended)  
-So, if you followed our previous step of installing openCV, you must have installed virtual environmnet for our projects. Now we have to activate it. We’ll install the MediaPipe framework package in a virtual environment. Creating a virtual environment will isolate the Python libraries we’re using, in this case, the OpenCV library, from the rest of the system. We’ll create our virtual environment on a directory on our Desktop. Enter the following command on a Terminal window to move to the Desktop. Run follwoing command in new terminal to change the directory and Enter into our Projects folder:  
+So, if you followed our previous step of installing openCV, you must have installed virtual environmnet for our projects. Now we have to activate it. We’ll install the MediaPipe framework package in a virtual environment. Creating a virtual environment will isolate the Python libraries we’re using, in this case, the MediaPipe and OpenCV library, from the rest of the system. We’ll create our virtual environment on a directory on our Desktop. Enter the following command on a Terminal window to move to the Desktop. Run follwoing command in new terminal to change the directory and Enter into our Projects folder:  
    ```
    cd ~/Desktop/projects
    ```
@@ -47,5 +47,5 @@ Now that we are in our virtual environment, we can install the MediaPipe library
    ```
    pip3 install mediapipe
    ```
-   
+
 It will take time. so have a patience and wait for the command to complete.
