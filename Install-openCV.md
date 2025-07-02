@@ -28,7 +28,7 @@ When it comes to optimizing memory on your Raspberry Pi, especially for demandin
 By following the simple steps in our [Guide](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/SWAP-memory.md), you can easily implement ZRAM and give your Raspberry Pi the memory boost it needs to tackle complex projects without hitting frustrating performance walls. Say goodbye to sluggishness and frequent crashes, and embrace a smoother, more efficient Raspberry Pi experience!  
 [How to Increase Swap Memory on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/SWAP-memory.md)  
   
-### Step 3: Installing OpenCV on Raspberry Pi with pip on Virtual Environment (Recommended)  
+### Step 3: Installing and Preparing Virtual Environment (Recommended)  
 Run the next command in your terminal to check Python version 3.X:  
    ```
    python --version
@@ -50,4 +50,22 @@ Enter into that newly created folder:
    ```
    cd ~/Desktop/projects
    ```
-Create a virtual environment for this directory called `myenv`. This must be the same directory where we’ll install the OpenCV library. Replace `myenv` with the desired name for your virtual environment.
+Create a virtual environment for this directory called `myenv`. This must be the same directory where we’ll install the OpenCV library. Replace `myenv` with the desired name for your virtual environment.  
+   ```
+   python3 -m venv projects-env
+   ```
+Then, you can run the following `ls` command to check that the virtual environment is there.  
+   ```
+   ls -l
+   ```
+Then next step is to Activate the virtual environment:  
+   ```
+   source projectsenv/bin/activate
+   ```
+Your terminal prompt should change like following to indicate that you are now in the virtual environment.  
+  
+### Step 4: Installing the OpenCV Library (Using Pip)
+So we will see **two methods of Installing OpenCV in Raspberry Pi**. First is using ***Pip Python package manager*** and other method is ***apt package manager***. Lets see first pip method. Now that we are in our virtual environment, we can install the OpenCV library. Run the following command:  
+   ```
+   pip3 install opencv-contrib-python
+   ```
