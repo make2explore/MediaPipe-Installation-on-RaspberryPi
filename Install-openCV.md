@@ -38,3 +38,16 @@ Install pip3 and Python 3 Virtual environment:
    ```
    sudo apt install -y python3-pip python3-virtualenv
    ```
+Create a Virtual Environment - We’ll install the OpenCV library in a virtual environment. Creating a virtual environment will isolate the Python libraries we’re using, in this case, the OpenCV library, from the rest of the system. We’ll create our virtual environment on a directory on our Desktop. Enter the following command on a Terminal window to move to the Desktop. Run follwoing command to change the directory
+   ```
+   cd ~/Desktop
+   ```
+Create a folder for your project. This is where we’ll create the virtual environment and install the library. We’ll create a folder called projects.
+   ```
+   mkdir projects
+   ```
+Enter into that newly created folder:  
+   ```
+   cd ~/Desktop/projects
+   ```
+Create a virtual environment for this directory called ==myenv==. This must be the same directory where we’ll install the OpenCV library. Replace ==myenv== with the desired name for your virtual environment.
