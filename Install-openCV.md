@@ -62,7 +62,7 @@ Then next step is to Activate the virtual environment:
    ```
    source projectsenv/bin/activate
    ```
-Your terminal prompt should change like following to indicate that you are now in the virtual environment.  
+Your terminal prompt should change ollowing to indicate that you are now in the virtual environment.  
   
 ### Step 4: Installing the OpenCV Library (Using Pip)
 So we will see **two methods of Installing OpenCV in Raspberry Pi**. First is using ***Pip Python package manager*** and other method is ***apt package manager***. Lets see first pip method. Now that we are in our virtual environment, we can install the OpenCV library. Run the following command:  
