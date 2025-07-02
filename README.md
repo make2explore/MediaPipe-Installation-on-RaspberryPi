@@ -38,7 +38,7 @@ So, if you followed our previous step of installing openCV, you must have instal
    ```
 Then next step is to Activate the virtual environment:  
    ```
-   source projectsenv/bin/activate
+   source projects-env/bin/activate
    ```
 Your terminal prompt should change to indicate that you are now in the virtual environment.  
   

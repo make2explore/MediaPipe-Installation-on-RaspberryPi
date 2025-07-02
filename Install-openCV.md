@@ -60,7 +60,7 @@ Then, you can run the following `ls` command to check that the virtual environme
    ```
 Then next step is to Activate the virtual environment:  
    ```
-   source projectsenv/bin/activate
+   source projects-env/bin/activate
    ```
 Your terminal prompt should change ollowing to indicate that you are now in the virtual environment.  
   
