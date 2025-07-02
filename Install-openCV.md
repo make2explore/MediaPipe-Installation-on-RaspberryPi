@@ -27,3 +27,14 @@ When it comes to optimizing memory on your Raspberry Pi, especially for demandin
   
 By following the simple steps in our [Guide](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/SWAP-memory.md), you can easily implement ZRAM and give your Raspberry Pi the memory boost it needs to tackle complex projects without hitting frustrating performance walls. Say goodbye to sluggishness and frequent crashes, and embrace a smoother, more efficient Raspberry Pi experience!  
 [How to Increase Swap Memory on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/SWAP-memory.md)  
+  
+### Step 3: Installing OpenCV on Raspberry Pi with pip on Virtual Environment (Recommended)  
+Run the next command in your terminal to check Python version 3.X:  
+   ```
+   python --version
+   ```
+   
+Install pip3 and Python 3 Virtual environment:  
+   ```
+   sudo apt install -y python3-pip python3-virtualenv
+   ```
