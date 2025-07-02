@@ -69,3 +69,30 @@ So we will see **two methods of Installing OpenCV in Raspberry Pi**. First is us
    ```
    pip3 install opencv-contrib-python
    ```
+It will take time. so have a patience and wait for the command to complete.
+  
+**Installing OpenCV on Raspberry Pi with apt (Optional)**  
+First we have to install some prerequisites, So run the next command to install all the required dependencies.  
+   ```
+   sudo apt install -y build-essential cmake pkg-config libjpeg-dev libtiff5-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libpango1.0-dev libgtk2.0-dev libgtk-3-dev libatlas-base-dev gfortran libhdf5-dev libhdf5-serial-dev libhdf5-103 libqt5gui5 libqt5webkit5 libqt5test5 python3-pyqt5 python3-dev
+   ```
+Once above installation get complete, run next command to install openCV
+   ```
+   sudo apt install -y python3-opencv
+   ```
+This command can take time, so have patience and wait for the command to complete.
+  
+### Step 5: Testing OpenCV apt Installation  
+Now to ensure that OpenCV has been installed successfully. In your terminal window, open Python prompt:  
+   ```
+   python
+   ```
+Then, in the Python prompt, import the OpenCV library.  
+   ```
+   import cv2
+   ```
+And finally, type the next command to check the OpenCV version that you installed. (Note there are two underscores before and after word version)  
+   ```
+   cv2.__version__
+   ```
+If everything has been done properly, it should return your OpenCV version.
