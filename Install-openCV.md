@@ -50,4 +50,4 @@ Enter into that newly created folder:
    ```
    cd ~/Desktop/projects
    ```
-Create a virtual environment for this directory called ==myenv==. This must be the same directory where we’ll install the OpenCV library. Replace ==myenv== with the desired name for your virtual environment.
+Create a virtual environment for this directory called `myenv`. This must be the same directory where we’ll install the OpenCV library. Replace `myenv` with the desired name for your virtual environment.
