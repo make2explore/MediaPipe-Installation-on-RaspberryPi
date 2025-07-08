@@ -23,13 +23,13 @@ sudo apt update && sudo apt upgrade -y
 #### Step 2: Increase Swap Memory  
 When it comes to optimizing memory on your Raspberry Pi, especially for demanding tasks like running MediaPipe and OpenCV for vision applications, ZRAM is the hands-down winner. It effectively transforms the crippling I/O bottleneck of traditional SD card swap into a manageable CPU overhead, resulting in a significantly more responsive, stable, and performant system.  
   
-By following the simple steps in our [Guide](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/SWAP-memory.md), you can easily implement ZRAM and give your Raspberry Pi the memory boost it needs to tackle complex projects without hitting frustrating performance walls. Say goodbye to sluggishness and frequent crashes, and embrace a smoother, more efficient Raspberry Pi experience!  
-[How to Increase Swap Memory on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/SWAP-memory.md)  
+By following the simple steps in our [Guide](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Enlarge-Swap), you can easily implement ZRAM and give your Raspberry Pi the memory boost it needs to tackle complex projects without hitting frustrating performance walls. Say goodbye to sluggishness and frequent crashes, and embrace a smoother, more efficient Raspberry Pi experience!  
+[How to Increase Swap Memory on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Enlarge-Swap)  
   
 
 #### Step 3: Install OpenCV  
-You should have OpenCV installed on your Raspberry Pi. If not, you can follow our [guide](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/Install-openCV.md) to install it  
-[How to Install OpenCV on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/blob/main/Install-openCV.md)  
+You should have OpenCV installed on your Raspberry Pi. If not, you can follow our [guide](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Install-OpenCV) to install it  
+[How to Install OpenCV on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Install-OpenCV)  
   
 ### Step 4: Preparing Virtual Environment (Recommended)  
 So, if you followed our previous step of installing openCV, you must have installed virtual environmnet for your projects. Now we have to activate it. We’ll install the MediaPipe framework package in a virtual environment. Creating a virtual environment will isolate the Python libraries we’re using, in this case, the MediaPipe and OpenCV library, from the rest of the system. We’ll create our virtual environment on a directory on our Desktop. Enter the following command on a Terminal window to move to the Desktop. Run follwoing command in new terminal to change the directory and Enter into our Projects folder:  
