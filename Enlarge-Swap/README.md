@@ -63,7 +63,9 @@ Customize ZRAM settings based on your Raspberry Pi’s RAM and workload.
    ```
    sudo nano /etc/default/zram-swap
    ```
-<img src="/Enlarge-Swap/Images/zram-swap.png" width="450" height="350">  
+<p align="center">
+<img src="/Enlarge-Swap/Images/zram-swap.png" width="450" height="350"> 
+</p>
   
   
 2. Adjust parameters:
