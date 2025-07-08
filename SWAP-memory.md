@@ -34,7 +34,7 @@ Ensure your Raspberry Pi OS is up to date to avoid compatibility issues.
    sudo reboot
    ```
 
-### Step 2: Install Git
+### Step 2: Install Git (If not avaialble on your Pi)
 Install `git` to download the ZRAM script:
    ```
    sudo apt install git
