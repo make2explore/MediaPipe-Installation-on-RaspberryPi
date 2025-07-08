@@ -65,6 +65,7 @@ Customize ZRAM settings based on your Raspberry Pi’s RAM and workload.
    ```
 <img src="/Enlarge-Swap/Images/zram-swap.png" width="450" height="350">  
   
+  
 2. Adjust parameters:
    - `_zram_algorithm`: Set the compression algorithm. Use `lz4` for low CPU overhead and good speed, or `zstd` for better compression but higher CPU usage. Check available algorithms with `cat /sys/block/zram0/comp_algorithm`.
    - `_zram_size`: Set the ZRAM size in bytes or with suffixes (e.g., `512M` for 512MB, `1G` for 1GB). A common choice is 50% of total RAM (e.g., 512MB for 1GB RAM, 1GB for 2GB RAM).
