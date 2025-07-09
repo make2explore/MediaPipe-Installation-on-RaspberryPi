@@ -165,7 +165,11 @@ Confirm ZRAM is active and correctly configured.
    zramctl
    ```
    - Shows size, algorithm (e.g., LZ4), and compression stats.
-
+  
+<p align="center">
+<img src="/Enlarge-Swap/Images/zramctl.png" width="450" height="350"> 
+</p>
+  
 4. Reboot to ensure persistence:
    ```
    sudo reboot
