@@ -145,7 +145,6 @@ Confirm ZRAM is active and correctly configured.
 <img src="/Enlarge-Swap/Images/cat-swaps.png" width="450" height="350"> 
 </p>
   
-
 2. Check memory usage:
    ```
    free -h
@@ -156,7 +155,11 @@ Confirm ZRAM is active and correctly configured.
      Mem:   1.9Gi 500Mi 1.0Gi 100Mi   400Mi      1.2Gi
      Swap:  512Mi 0Mi   512Mi
      ```
-
+  
+<p align="center">
+<img src="/Enlarge-Swap/Images/free-h.png" width="450" height="350"> 
+</p>
+  
 3. Check ZRAM details:
    ```
    zramctl
