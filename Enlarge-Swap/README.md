@@ -139,7 +139,12 @@ Confirm ZRAM is active and correctly configured.
      Filename           Type       Size    Used    Priority
      /dev/zram0         partition  524288  0       15
      ```
-     - `/dev/zram0` shows the configured ZRAM size (e.g., 512MB) and priority (15).
+     - `/dev/zram0` shows the configured ZRAM size (e.g., 512MB) and priority (15).  
+       
+<p align="center">
+<img src="/Enlarge-Swap/Images/cat-swaps.png" width="450" height="350"> 
+</p>
+  
 
 2. Check memory usage:
    ```
