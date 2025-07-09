@@ -117,7 +117,11 @@ Tune the system for efficient ZRAM usage.
    ```
    - `swappiness=80`: Encourages moderate ZRAM usage to balance performance and memory availability.
    - Others optimize memory management for typical workloads.
-
+  
+<p align="center">
+<img src="/Enlarge-Swap/Images/sysctl.png" width="450" height="350"> 
+</p>
+  
 3. Apply changes:
    ```
    sudo sysctl -p
