@@ -81,7 +81,7 @@ Customize ZRAM settings based on your Raspberry Pi’s RAM and workload.
       - ✅ Recommended: Stick with lz4 unless you need extra compression and can afford some CPU load (zstd).  
 
    - `_zram_fraction` : Controls how much RAM will be reserved for ZRAM swap.  
-         ```
+      ```
       # Fraction of total RAM to allocate for ZRAM (e.g., "1/2", "2/3")
       _zram_fraction="1/2"
 
