@@ -91,6 +91,7 @@ Customize ZRAM settings based on your Raspberry Pi’s RAM and workload.
 
    - `_zram_swap_debugging`: Set to `1` to enable debugging output for troubleshooting, or `0` to disable (recommended for normal use).
       ```
+      #  Set to 1 to enable debugging output for troubleshooting, or 0 to disable
       _zram_swap_debugging=0
       ```
       - Enables verbose logs for troubleshooting ZRAM swap setup.
