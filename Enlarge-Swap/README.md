@@ -90,12 +90,12 @@ Customize ZRAM settings based on your Raspberry Pi’s RAM and workload.
       - ✅ Recommended: "1/2" is safe for most systems; on low-RAM devices, use "2/3" or "3/4".  
 
    - `_zram_swap_debugging`: Set to `1` to enable debugging output for troubleshooting, or `0` to disable (recommended for normal use).
-   - Example:
-     ```
-     _zram_algorithm=lz4
-     _zram_size=512M
-     _zram_swap_debugging=0
-     ```
+      - Example:
+      ```
+      _zram_algorithm=lz4
+      _zram_size=512M
+      _zram_swap_debugging=0
+      ```
    - **Note**: The script does not support a `PRIORITY` option. It sets a default swap priority of 15, which prioritizes ZRAM over traditional swap (typically -2 or -1). This is sufficient for most setups.
    - Save and exit (Ctrl+O, Enter, Ctrl+X).
 
