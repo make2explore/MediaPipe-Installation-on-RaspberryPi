@@ -78,7 +78,16 @@ Customize ZRAM settings based on your Raspberry Pi’s RAM and workload.
       - lz4: Fastest compression with decent ratio — ideal for Raspberry Pi.
       - zstd: Better compression ratio but higher CPU usage.
       - lzo: Balanced speed/compression, suitable for older boards.
-      - ✅ Recommended: Stick with lz4 unless you need extra compression and can afford some CPU load (zstd).
+      - ✅ Recommended: Stick with lz4 unless you need extra compression and can afford some CPU load (zstd).  
+
+   - `_zram_fraction` : Controls how much RAM will be reserved for ZRAM swap.  
+         ```
+      # Fraction of total RAM to allocate for ZRAM (e.g., "1/2", "2/3")
+      _zram_fraction="1/2"
+
+      ```
+      - For instance, "1/2" on a 2GB Pi allocates ~1GB to compressed swap.
+      - ✅ Recommended: "1/2" is safe for most systems; on low-RAM devices, use "2/3" or "3/4".  
 
    - `_zram_swap_debugging`: Set to `1` to enable debugging output for troubleshooting, or `0` to disable (recommended for normal use).
    - Example:
