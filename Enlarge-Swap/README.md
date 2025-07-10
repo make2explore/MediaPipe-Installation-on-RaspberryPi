@@ -97,6 +97,15 @@ Customize ZRAM settings based on your Raspberry Pi’s RAM and workload.
       - Enables verbose logs for troubleshooting ZRAM swap setup.
       - Commented out by default.
 
+   - `_zram_fixedsize` : Forces ZRAM to create a fixed-size swap device 
+      ```
+      # Optional: fixed size swap (e.g., "1G", "512M")
+      #_zram_fixedsize="1G"
+
+      ```
+      - Forces ZRAM to create a fixed-size swap device, regardless of available RAM.
+      - Leave commented unless you need strict memory limits.
+
    - **Note**: The script does not support a `PRIORITY` option. It sets a default swap priority of 15, which prioritizes ZRAM over traditional swap (typically -2 or -1). This is sufficient for most setups.
    - Save and exit (Ctrl+O, Enter, Ctrl+X).
 
