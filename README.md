@@ -18,10 +18,9 @@ Before you begin, ensure you have:
    <p align="center">
    <img src="/Images/m2e-Rpi4-OS.png" width="450" height="350">
    </p>
-   
-- A terminal or SSH access to your Raspberry Pi.  
+    
 - At least 10GB of free storage (preferably on a microSD card or external drive). MediaPipe and its dependencies can take up a fair amount of space, so ensure your SD card has enough free storage.  
-- A USB webcam or Raspberry Pi Camera Module (optional, for testing MediaPipe applications).  
+- A USB webcam or Raspberry Pi Camera Module (We use Logitech C270 USB Webcam)  
   
 ### Step-by-Step Installation Guide 🚀  
   
