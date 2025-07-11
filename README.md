@@ -7,11 +7,10 @@ MediaPipe is a versatile open-source framework by Google, ideal for building mac
 Before you begin, ensure you have:  
 
 - A Raspberry Pi (preferably 4 or latest varient for better performance). with Raspberry Pi OS (64-bit) installed.  
-   A Raspberry Pi 4 or 5 is highly recommended for better performance. While older models (like Pi 3) might work for simpler tasks, they will likely struggle with real-time applications.  
+   Raspberry Pi 4 or 5 is highly recommended for better performance. While older models (like Pi 3) might work for simpler tasks, they will likely struggle with real-time applications.  
    - ✅ We have tested this with Raspberry Pi 4 Model B Rev 1.1 with Raspberry Pi OS (64-bit) Debian version: 12 (bookworm)  
-   <p align="center">
+   - 32 Bit OS did not worked for us while we tested it.
    <img src="/Images/m2e-Rpi4-MP.png" width="450" height="350"> 
-   </p>
 - An active internet connection.  
 - A terminal or SSH access to your Raspberry Pi.  
 - At least 10GB of free storage (preferably on a microSD card or external drive). MediaPipe and its dependencies can take up a fair amount of space, so ensure your SD card has enough free storage.  
