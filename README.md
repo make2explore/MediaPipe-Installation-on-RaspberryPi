@@ -10,7 +10,7 @@ Before you begin, ensure you have:
    Raspberry Pi 4 or 5 is highly recommended for better performance. While older models (like Pi 3) might work for simpler tasks, they will likely struggle with real-time applications.  
    - ✅ We have tested this with Raspberry Pi 4 Model B Rev 1.1 with Raspberry Pi OS (64-bit) Debian version: 12 (bookworm)  
    - 32-bit OS did not worked for us when we tested it.
-   <img src="/Images/m2e-Rpi4-MP.png" width="450" height="350"> &nbsp; &nbsp; <img src="/Images/m2e-Rpi4-OS.png" width="450" height="350">
+   <img src="/Images/m2e-Rpi4-MP.png" width="450" height="350"> &nbsp; <img src="/Images/m2e-Rpi4-OS.png" width="450" height="350">
 - A terminal or SSH access to your Raspberry Pi.  
 - At least 10GB of free storage (preferably on a microSD card or external drive). MediaPipe and its dependencies can take up a fair amount of space, so ensure your SD card has enough free storage.  
 - A USB webcam or Raspberry Pi Camera Module (optional, for testing MediaPipe applications).  
