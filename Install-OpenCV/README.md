@@ -64,14 +64,14 @@ Then next step is to Activate the virtual environment:
    ```
 Your terminal prompt should change following to indicate that you are now in the virtual environment.  
   
-### Step 4: Installing the OpenCV Library (Using Pip)
+### Step 4: Installing the OpenCV Library (Option 1 - Using Pip)
 So we will see **two methods of Installing OpenCV in Raspberry Pi**. First is using ***Pip Python package manager*** and other method is ***apt package manager***. Lets see first pip method. Now that we are in our virtual environment, we can install the OpenCV library. Run the following command:  
    ```
    pip3 install opencv-contrib-python
    ```
 It will take time. so have a patience and wait for the command to complete.
   
-**Installing OpenCV on Raspberry Pi with apt (Using apt)**  
+### Installing OpenCV on Raspberry Pi with apt (Option 2 - Using apt)  
 First we have to install some prerequisites, So run the next command to install all the required dependencies.  
    ```
    sudo apt install -y build-essential cmake pkg-config libjpeg-dev libtiff5-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libpango1.0-dev libgtk2.0-dev libgtk-3-dev libatlas-base-dev gfortran libhdf5-dev libhdf5-serial-dev libhdf5-103 libqt5gui5 libqt5webkit5 libqt5test5 python3-pyqt5 python3-dev
