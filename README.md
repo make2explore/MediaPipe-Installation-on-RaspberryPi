@@ -39,7 +39,7 @@ sudo apt update && sudo apt upgrade -y
 [How to Increase Swap Memory on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Enlarge-Swap)  
   
 - If you have Raspberry Pi 4/5 with more than 4GB's of RAM, You might not need to increase the swap memory.  
-- ✅ We have tested it with default setup. 2GB RAM and 512MB of default Swap space(SD card swap)  
+- ✅ We have tested it with default setup. 2GB RAM and 512MB of default (SD card) Swap space
   
 
 #### Step 3: Install OpenCV  
