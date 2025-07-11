@@ -38,7 +38,7 @@ sudo apt update && sudo apt upgrade -y
 - By following the simple steps in our [Guide](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Enlarge-Swap), you can easily implement ZRAM and give your Raspberry Pi the memory boost it needs to tackle complex projects without hitting frustrating performance walls. Say goodbye to sluggishness and frequent crashes, and embrace a smoother, more efficient Raspberry Pi experience!  
 [How to Increase Swap Memory on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Enlarge-Swap)  
   
-- If you have Raspberry Pi 4/5 with more than 4GB's of RAM. You may not need to enlarge the Swap memory. 
+- If you have Raspberry Pi 4/5 with more than 4GB's of RAM, You might not need to increase the swap memory.  
 - ✅ We have tested it with default setup. 2GB RAM and 512MB of default Swap space(SD card swap)  
   
 
