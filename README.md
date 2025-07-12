@@ -167,3 +167,45 @@ python3 gesture.py
       --numHands 2 \
       --minHandDetectionConfidence 0.5
     ```
+  
+------------------------------------------------------------------------------------------------------
+
+📕 **YouTube Video Links**  
+
+- In this tutorial we will see How to install MediaPipe on Raspberry Pi
+
+▶️  How to install MediaPipe on Raspberry Pi  - 🔗  https://youtu.be/  
+
+
+-------------------------------------------------------------------------------------------------------
+📒 **Important Links**  
+ 
+🌐 MediaPipe Docs - 🔗 https://ai.google.dev/edge/mediapipe/solutions/guide  
+🌐 MediaPipe Source - 🔗 https://github.com/google/mediapipe  
+📙 Set up your Raspberry Pi with Raspberry 64-bit Pi OS 🔗 https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up  
+📙 Connect and configure the Pi Camera 🔗 https://www.raspberrypi.org/documentation/configuration/camera.md    
+
+
+------------------------------------------------------------------------------------------------------
+
+📜 Source Code, Circuit Diagrams and Documentation : 
+
+🌐 GitHub Repository - 🔗 https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi  
+  
+🌐 Hackster Blog - 🔗 https://www.hackster.io/make2explore  
+  
+🌐 Instructable Blog - 🔗 https://www.instructables.com/make2explore  
+  
+
+------------------------------------------------------------------------------------------  
+
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
