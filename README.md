@@ -86,6 +86,17 @@ Now that we are in our virtual environment, we can install the MediaPipe library
 
 It will take time. so have a patience and wait for the command to complete.  
   
+MediaPipe intallation will install all necessary dependencies  
+<p align="center">
+<img src="/Images/m2e-mediapipe-1.png" width="450" height="350">  
+</p>
+  
+And Finally you will get message of Successful installation
+
+<p align="center">
+<img src="/Images/m2e-mediapipe-2.png" width="450" height="350">
+</p>
+  
 ### Step 5: Testing Mediapipe installation  
 Now to ensure that MediaPipe has been installed successfully. In your terminal window, open Python prompt:  
    ```
