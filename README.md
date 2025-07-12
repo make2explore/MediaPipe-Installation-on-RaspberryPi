@@ -135,10 +135,16 @@ python3 landmarks.py
   
 Press the Esc key to exit from the program    
 
-### Run the example (Gesture)
+### Run the example (Gesture)  
+To run the gesture detection code we need one more file. i.e task file. The 'gesture_recognizer.task' file is a MediaPipe Model Bundle specifically designed for gesture recognition. It contains the models necessary to not only detect hands and their landmarks but also to classify specific hand poses into named gestures (e.g., "Open_Palm", "Pointing_Up", "Thumb_Up"). So, before running Gesture recognition code lets first check all necessary dependencies are avaialable. For that Run following script to install the required dependencies and download the task file:  
+```
+sh setup.sh
+```
+You may see see all requirements are already satisfied. Script will also download the 'gesture_recognizer.task' file. Once it get completed successfully, now you can run main code.  
 ```
 python3 gesture.py
 ```
+  
 *   You can optionally specify the `model` parameter to set the task file to be used:
     *   The default value is `gesture_recognizer.task`
     *   TensorFlow Lite gesture recognizer models **with metadata**  
