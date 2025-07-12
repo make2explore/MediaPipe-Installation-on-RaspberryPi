@@ -24,15 +24,15 @@ Before you begin, ensure you have:
   
 -----------------------------------------------------------------------------------------------------------------------------------------
   
-### Step-by-Step Installation Guide 🚀  
+## Step-by-Step Installation Guide 🚀  
   
-#### Step 1: Update Your System  
+### Step 1: Update Your System  
 Open the terminal and ensure your Pi is up to date:  
 ```
 sudo apt update && sudo apt upgrade -y
 ```
 
-#### Step 2: Increase Swap Memory (Optional)  
+### Step 2: Increase Swap Memory (Optional)  
 - When it comes to optimizing memory on your Raspberry Pi, especially for demanding tasks like running MediaPipe and OpenCV for vision applications, ZRAM is the hands-down winner. It effectively transforms the crippling I/O bottleneck of traditional SD card swap into a manageable CPU overhead, resulting in a significantly more responsive, stable, and performant system.  
   
 - By following the simple steps in our [Guide](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Enlarge-Swap), you can easily implement ZRAM and give your Raspberry Pi the memory boost it needs to tackle complex projects without hitting frustrating performance walls. Say goodbye to sluggishness and frequent crashes, and embrace a smoother, more efficient Raspberry Pi experience!  
@@ -41,7 +41,7 @@ sudo apt update && sudo apt upgrade -y
 - If you have Raspberry Pi 4/5 with more than 4GB's of RAM, You might not need to increase the swap memory.  
 - ✅ We have tested it with default setup. 2GB RAM and 512MB of default (SD card) Swap space
   
-#### Step 3: Preparing Virtual Environment (Recommended)  
+### Step 3: Preparing Virtual Environment (Recommended)  
 We’ll install the MediaPipe framework package in a virtual environment. Creating a virtual environment will isolate the Python libraries we’re using, in this case, the MediaPipe and OpenCV library, from the rest of the system. We’ll create our virtual environment on a directory on our Desktop. Enter the following command on a Terminal window to move to the Desktop. Run follwoing command in new terminal to change the directory and Enter into our Projects folder:  
 Run the next command in your terminal to check Python version 3.X:  
    ```
