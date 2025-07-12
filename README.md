@@ -84,4 +84,6 @@ Now that we are in our virtual environment, we can install the MediaPipe library
    pip3 install mediapipe
    ```
 
-It will take time. so have a patience and wait for the command to complete.
+It will take time. so have a patience and wait for the command to complete.  
+  
+### Step 5: Testing Mediapipe installation
