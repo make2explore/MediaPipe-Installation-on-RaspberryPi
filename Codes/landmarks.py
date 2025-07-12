@@ -5,8 +5,6 @@ import sys
 import time
 import cv2
 import mediapipe as mp # Crucial: Import mediapipe as mp
-# The following imports are not strictly necessary for just landmarks but were in the original code
-# and can be kept for compatibility or if you expand functionality later.
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 from mediapipe.framework.formats import landmark_pb2
