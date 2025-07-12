@@ -32,7 +32,7 @@ Open the terminal and ensure your Pi is up to date:
 sudo apt update && sudo apt upgrade -y
 ```
 
-#### Step 2: Increase Swap Memory (Preferred Method : ZRAM) 
+#### Step 2: Increase Swap Memory (Optional)  
 - When it comes to optimizing memory on your Raspberry Pi, especially for demanding tasks like running MediaPipe and OpenCV for vision applications, ZRAM is the hands-down winner. It effectively transforms the crippling I/O bottleneck of traditional SD card swap into a manageable CPU overhead, resulting in a significantly more responsive, stable, and performant system.  
   
 - By following the simple steps in our [Guide](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Enlarge-Swap), you can easily implement ZRAM and give your Raspberry Pi the memory boost it needs to tackle complex projects without hitting frustrating performance walls. Say goodbye to sluggishness and frequent crashes, and embrace a smoother, more efficient Raspberry Pi experience!  
@@ -41,23 +41,44 @@ sudo apt update && sudo apt upgrade -y
 - If you have Raspberry Pi 4/5 with more than 4GB's of RAM, You might not need to increase the swap memory.  
 - ✅ We have tested it with default setup. 2GB RAM and 512MB of default (SD card) Swap space
   
-
-#### Step 3: Install OpenCV  
-You should have OpenCV installed on your Raspberry Pi. If not, you can follow our [guide](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Install-OpenCV) to install it  
-[How to Install OpenCV on Raspberry Pi](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Install-OpenCV)  
-  
-### Step 4: Preparing Virtual Environment (Recommended)  
+### Step 3: Preparing Virtual Environment (Recommended)  
 So, if you followed our previous step of installing openCV, you must have installed virtual environmnet for your projects. Now we have to activate it. We’ll install the MediaPipe framework package in a virtual environment. Creating a virtual environment will isolate the Python libraries we’re using, in this case, the MediaPipe and OpenCV library, from the rest of the system. We’ll create our virtual environment on a directory on our Desktop. Enter the following command on a Terminal window to move to the Desktop. Run follwoing command in new terminal to change the directory and Enter into our Projects folder:  
+Run the next command in your terminal to check Python version 3.X:  
+   ```
+   python --version
+   ```
+   
+Install pip3 and Python 3 Virtual environment:  
+   ```
+   sudo apt install -y python3-pip python3-virtualenv
+   ```
+Go to Desktop -  
+   ```
+   cd ~/Desktop
+   ```
+Create a folder for your project. This is where we’ll create the virtual environment and install the library. We’ll create a folder called projects.
+   ```
+   mkdir projects
+   ```
+Enter into that newly created folder:  
    ```
    cd ~/Desktop/projects
+   ```
+Create a virtual environment for this directory called `myenv`. This must be the same directory where we’ll install the OpenCV library. Replace `myenv` with the desired name for your virtual environment.  
+   ```
+   python3 -m venv projects-env
+   ```
+Then, you can run the following `ls` command to check that the virtual environment is there.  
+   ```
+   ls -l
    ```
 Then next step is to Activate the virtual environment:  
    ```
    source projects-env/bin/activate
    ```
-Your terminal prompt should change to indicate that you are now in the virtual environment.  
+Your terminal prompt should change following to indicate that you are now in the virtual environment.
   
-### Step 5: Installing the MediaPipe Library  
+### Step 4: Installing the MediaPipe Library  
 Now that we are in our virtual environment, we can install the MediaPipe library. Run the following command:  
    ```
    pip3 install mediapipe
