@@ -182,7 +182,7 @@ python3 gesture.py
  
 🌐 MediaPipe Docs - 🔗 https://ai.google.dev/edge/mediapipe/solutions/guide  
 🌐 MediaPipe Source - 🔗 https://github.com/google/mediapipe  
-📙 Set up your Raspberry Pi with Raspberry 64-bit Pi OS 🔗 https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up  
+📙 Set up your Raspberry Pi 🔗 https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up  
 📙 Connect and configure the Pi Camera 🔗 https://www.raspberrypi.org/documentation/configuration/camera.md    
 
 
