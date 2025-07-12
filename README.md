@@ -86,4 +86,68 @@ Now that we are in our virtual environment, we can install the MediaPipe library
 
 It will take time. so have a patience and wait for the command to complete.  
   
-### Step 5: Testing Mediapipe installation
+### Step 5: Testing Mediapipe installation  
+Now to ensure that MediaPipe has been installed successfully. In your terminal window, open Python prompt:  
+   ```
+   python
+   ```
+Then, in the Python prompt, import the OpenCV library.  
+   ```
+   import mediapipe
+   ```
+If all goes well, you will see mediapipe get successfully imported. Now you can download and run the codes given in [this](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Codes) repository.  
+  
+## MediaPipe examples with Raspberry Pi
+
+This example uses [MediaPipe](https://github.com/google/mediapipe) with Python on
+a Raspberry Pi to perform real-time gesture recognition using images
+streamed from the camera.  
+
+### Download the repository
+
+First, clone this Git repo onto your Raspberry Pi.  
+```
+git clone https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi.git
+```
+
+Go to codes folder
+```
+cd MediaPipe-Installation-on-RaspberryPi/Codes/
+```  
+### Run the example (Hand Landmarks)  
+```
+python3 landmarks.py
+```
+
+### Run the example (Gesture)
+```
+python3 gesture.py
+```
+*   You can optionally specify the `model` parameter to set the task file to be used:
+    *   The default value is `gesture_recognizer.task`
+    *   TensorFlow Lite gesture recognizer models **with metadata**  
+        * Models from [MediaPipe Models](https://developers.google.com/mediapipe/solutions/vision/gesture_recognizer#models)
+        * Custom models trained with [MediaPipe Model Maker](https://developers.google.com/mediapipe/solutions/vision/gesture_recognizer#custom_models) are supported.
+*   You can optionally specify the `numHands` parameter to the maximum 
+    number of hands that can be detected by the recognizer:
+    *   Supported value: A positive integer (1-2)
+    *   Default value: `1`
+*   You can optionally specify the `minHandDetectionConfidence` parameter to adjust the
+    minimum confidence score for hand detection to be considered successful:
+    *   Supported value: A floating-point number.
+    *   Default value: `0.5`
+*   You can optionally specify the `minHandPresenceConfidence` parameter to adjust the 
+    minimum confidence score of hand presence score in the hand landmark detection:
+    *   Supported value: A floating-point number.
+    *   Default value: `0.5`
+*   You can optionally specify the `minTrackingConfidence` parameter to adjust the 
+    minimum confidence score for the hand tracking to be considered successful:
+    *   Supported value: A floating-point number.
+    *   Default value: `0.5`
+*   Example usage:
+    ```
+    python3 recognize.py \
+      --model gesture_recognizer.task \
+      --numHands 2 \
+      --minHandDetectionConfidence 0.5
+    ```
