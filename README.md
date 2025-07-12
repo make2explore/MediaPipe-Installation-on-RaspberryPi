@@ -97,6 +97,9 @@ Then, in the Python prompt, import the OpenCV library.
    ```
 If all goes well, you will see mediapipe get successfully imported. Now you can download and run the codes given in [this](https://github.com/make2explore/MediaPipe-Installation-on-RaspberryPi/tree/main/Codes) repository.  
   
+----------------------------------------------------------------------------------------------------------------  
+  
+  
 ## MediaPipe examples with Raspberry Pi
 
 This example uses [MediaPipe](https://github.com/google/mediapipe) with Python on
