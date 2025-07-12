@@ -86,7 +86,7 @@ Now that we are in our virtual environment, we can install the MediaPipe library
 
 It will take time. so have a patience and wait for the command to complete.  
   
-MediaPipe intallation will install all necessary dependencies like, OpenCV, Numpy, Matplotlib, pillow etc.  
+MediaPipe installation will install all necessary dependencies like, OpenCV, Numpy, Matplotlib, pillow etc.  
 <p align="center">
 <img src="/Images/m2e-mediapipe-1.png" width="600" height="450">  
 </p>
