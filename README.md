@@ -102,7 +102,7 @@ If all goes well, you will see mediapipe get successfully imported. Now you can 
   
 ## MediaPipe examples with Raspberry Pi
 
-This example uses [MediaPipe](https://github.com/google/mediapipe) with Python on
+These example uses [MediaPipe](https://github.com/google/mediapipe) with Python on
 a Raspberry Pi to perform real-time gesture recognition using images
 streamed from the camera.  
 
@@ -121,6 +121,8 @@ cd MediaPipe-Installation-on-RaspberryPi/Codes/
 ```
 python3 landmarks.py
 ```
+  
+Press the Esc key to exit from the program    
 
 ### Run the example (Gesture)
 ```
