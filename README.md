@@ -180,9 +180,11 @@ python3 gesture.py
 
 📕 **YouTube Video Links**  
 
-- In this tutorial we will see How to install MediaPipe on Raspberry Pi
+- In this tutorial we will see How to install MediaPipe on Raspberry Pi  
 
-▶️  How to install MediaPipe on Raspberry Pi  - 🔗  https://youtu.be/  
+▶️ 
+
+▶️  How to install MediaPipe on Raspberry Pi  - 🔗  https://youtu.be/AzktHlgjufM   
 
 
 -------------------------------------------------------------------------------------------------------
