@@ -182,10 +182,11 @@ python3 gesture.py
 
 - In this tutorial we will see How to install MediaPipe on Raspberry Pi  
 
-▶️ 
-
-▶️  How to install MediaPipe on Raspberry Pi  - 🔗  https://youtu.be/AzktHlgjufM   
-
+▶️ [Tutorial]How to install MediaPipe on Raspberry Pi  - 🔗  https://youtu.be/AzktHlgjufM   
+  
+- In following tutorial We will see How to install NoMachine Remote Desktop Software on Raspberry Pi
+  
+▶️ [Tutorial] How to Install and s Setup NoMachine on Raspberry Pi  -  🔗  https://youtu.be/EumVIAsFkQo  
 
 -------------------------------------------------------------------------------------------------------
 📒 **Important Links**  
