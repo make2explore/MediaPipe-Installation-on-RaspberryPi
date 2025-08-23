@@ -195,6 +195,10 @@ python3 gesture.py
 🌐 MediaPipe Source - 🔗 https://github.com/google/mediapipe  
 📙 Set up your Raspberry Pi 🔗 https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up  
 📙 Connect and configure the Pi Camera 🔗 https://www.raspberrypi.org/documentation/configuration/camera.md    
+🌐 Raspberry Pi Imager - 🔗 https://www.raspberrypi.com/software/  
+🌐 Raspberry Pi OS  - 🔗 https://www.raspberrypi.com/software/operating-systems/  
+🌐 NoMachine RDS - 🔗 https://www.nomachine.com/  
+🌐 SD Card Formatter - 🔗 https://www.sdcard.org/downloads/  
 
 
 ------------------------------------------------------------------------------------------------------
