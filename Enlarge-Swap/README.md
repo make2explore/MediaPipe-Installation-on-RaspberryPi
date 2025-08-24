@@ -49,7 +49,7 @@ Use the `foundObjects/zram-swap` script for easy ZRAM setup.
    cd zram-swap
    ```
 
-2. Run the installation script:
+2. Run the installation script :
    ```
    sudo ./install.sh
    ```
